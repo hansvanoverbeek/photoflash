@@ -48,10 +48,9 @@ group :development do
   gem 'spring'
 end
 
-  #gems for image management
-  gem 'carrierwave'
-  gem 'image_magick'
-  gem 'mini_magick', '~> 3.5.0'
-  gem 'fog'
-  gem 'figaro'
-  gem 'unf'
+#gems for image management
+gem 'carrierwave-aws'
+gem 'mini_magick', '~> 3.5.0'
+gem 'fog'
+gem 'figaro'
+gem 'unf'
